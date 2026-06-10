@@ -1,0 +1,12 @@
+{
+  "name": "tp1-devops",
+  "version": "1.0.0",
+  "description": "TP 1 DevOps - petite application Express deployee sur Render via GitHub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
