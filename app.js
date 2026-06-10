@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Bonjour DevOps !");
+  res.send("Bonjour DevOps 2026 !");
 });
 
 // Render fournit le port via la variable d'environnement PORT.
