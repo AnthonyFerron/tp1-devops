@@ -1,3 +1,6 @@
 node_modules/
 .env
 npm-debug.log
+
+# Rapport et captures (deliverables locaux, non publies)
+rapport/
