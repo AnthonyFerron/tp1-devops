@@ -1,0 +1,13 @@
+# Infrastructure as Code - description du service Render (Blueprint).
+# Permet de recreer le deploiement a l'identique depuis le code.
+services:
+  - type: web
+    name: tp1-devops
+    runtime: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm ci
+    startCommand: node app.js
+    healthCheckPath: /health
+    autoDeploy: true
